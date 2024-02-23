@@ -27,7 +27,7 @@ const __dirname = dirname(__filename);
 
 const app = express();
 
-const csrfProtection = csurf({ cookie: true });
+// const csrfProtection = csurf({ cookie: true });
 
 // Apply middlewares
 app.use(cors());
@@ -54,11 +54,11 @@ readdirSync(routesPath).forEach((file) => {
 // CSRf
 
 // Error handling middleware
-app.use(csrfProtection);
+// app.use(csrfProtection);
 
-app.get("/api/csrf-token", (req, res) => {
-  res.json({ csrfToken: req.csrfToken() });
-});
+// app.get("/api/csrf-token", (req, res) => {
+//   res.json({ csrfToken: req.csrfToken() });
+// });
 
 // port
 const port = process.env.PORT || 8000; // Set a default port if not specified in the environment
