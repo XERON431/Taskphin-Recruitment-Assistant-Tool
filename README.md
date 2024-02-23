@@ -1,4 +1,4 @@
-# Recruitment Assistance Tool
+# Talent Tracker - Recruitment Assistance Tool
 
 Recruitment Assistance is an all-purpose recruitment solution designed to streamline the hiring process for both job seekers and recruiters. It offers a comprehensive platform for managing candidates, evaluating their skills, and tracking their progress through different stages of recruitment.
 
@@ -60,7 +60,15 @@ Recruitment Assistance is an all-purpose recruitment solution designed to stream
 
 
 ## Installation
+I have deployed the backend on render so for running the Website on localhost only frontend installation is needed
+### Install Dependencies
+- cd client
+- npm install
+### Start the Program
+- npm run dev
 
+For running both frontend and backend on localhost, change line number 18 on client/server.js  target: 'https://recruitment-assistance-webapp.onrender.com' -> target: 'http://localhost:8001'
+then 
 ### Install Dependencies
 - cd recruitment-assistance/client
 - npm install
@@ -146,6 +154,7 @@ You can use a PostgreSQL database provided by render.com. Set up your database a
 - creating separate role based access and authorization for candidates and recruiters
 - creating further criterias and grading points to categorise candidates
 - faster search agorithm for search box in global showcase
+
 
 
 
