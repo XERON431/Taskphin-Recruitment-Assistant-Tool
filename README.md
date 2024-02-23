@@ -67,7 +67,7 @@ I have deployed the backend on render so for running the Website on localhost on
 ### Start the Program
 - npm run dev
 
-For running both frontend and backend on localhost, change line number 18 on client/server.js  target: 'https://recruitment-assistance-webapp.onrender.com' -> target: 'http://localhost:8001'
+For running both frontend and backend on localhost, change line number 18 on client/server.js  target: 'https://taskphin-recruitment-assistant-tool.onrender.com' -> target: 'http://localhost:8001'
 then 
 ### Install Dependencies
 - cd recruitment-assistance/client
