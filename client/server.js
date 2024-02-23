@@ -15,7 +15,7 @@ app.prepare()
       server.use(
         '/api',
         createProxyMiddleware({
-          target: 'http://localhost:8001', // Your server address
+          target: 'https://taskphin-recruitment-assistant-tool.onrender.com', // Your server address
           changeOrigin: true,
         })
       );
